@@ -14,16 +14,26 @@ header{
     color: white;
     padding: 5px;
 }
-aside,article{
+aside{
     padding: 5px;
+}
+#tartalom{
+    padding: 0px 10px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:space-between;
 }
 h2{
     border-bottom: 3px solid black;
 }
-div {
+.diak {
     border: 1px dotted black;
     border-radius: 15px;
-    padding: auto;
+    padding: 5px;
+    flex: 0 0 calc(28% - 10px );
+    align-self: flex-start;
 
 }
 
@@ -32,4 +42,9 @@ footer{
     text-align: center;
     padding: 5px;
 
+}
+
+
+@media screen (){
+    
 }

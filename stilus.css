@@ -1,0 +1,35 @@
+main{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 235, 205, 0.709);
+    border-radius: 5px;
+
+    
+}
+body{
+    background-image:url(hatter.png) ;
+}
+header{
+    background-image:url(fejlec.jfif) ;
+    color: white;
+    padding: 5px;
+}
+aside,article{
+    padding: 5px;
+}
+h2{
+    border-bottom: 3px solid black;
+}
+div {
+    border: 1px dotted black;
+    border-radius: 15px;
+    padding: auto;
+
+}
+
+footer{
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 5px;
+
+}
